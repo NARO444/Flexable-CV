@@ -24,8 +24,8 @@ h1 {
 }
 
 .parent div {
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: center !important;
     align-items: center;
 }
 
@@ -82,8 +82,8 @@ h1 {
     .mail {
         width: 100%;
     }
+
+    .parent .img img {
+        width: 40%;
+    }
 }
-
-@media (min-width: 769px) {}
-
-@media (min-width: 1024px) {}
